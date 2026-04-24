@@ -11,25 +11,19 @@ The code reproduces all results reported in the accompanying project report:
 Tested with:
 - Python 3.10 / 3.11
 - Ubuntu / Google Colab environment
+## To Clone Repository
 
-### Option 1: Using `requirements.txt`
+git clone https://github.com/GuruSubhashBathula/Cross-Lingual-Named-Entity-Recognition.git
+cd Cross-Lingual-Named-Entity-Recognition
 
-```bash
-git clone https://github.com/your-username/cross-lingual-ner.git
-cd cross-lingual-ner
-
+# Option A: pure venv + pip
 python -m venv .venv
-source .venv/bin/activate  # on Windows: .venv\Scripts\activate
-
+source .venv/bin/activate      # on Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-```
 
-### Option 2: Using `environment.yml` (conda)
-
-```bash
+# Option B: conda env
 conda env create -f environment.yml
 conda activate cross-lingual-ner
-```
 
 Key dependencies:
 - `transformers`
